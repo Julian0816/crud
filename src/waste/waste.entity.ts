@@ -28,9 +28,25 @@ export class Waste {
 
   @ApiProperty()
   @Column()
-  bulkName: string;
+  bulkName1: string;
 
   @ApiProperty()
   @Column()
-  bulkAmount: number;
+  bulkAmount1: number;
+
+  @ApiProperty()
+  @Column()
+  bulkName2: string;
+
+  @ApiProperty()
+  @Column()
+  bulkAmount2: number;
+
+  @ApiProperty()
+  @Column()
+  bulkName3: string;
+
+  @ApiProperty()
+  @Column()
+  bulkAmount3: number;
 }
