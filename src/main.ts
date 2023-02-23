@@ -8,7 +8,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Waste CRUD')
-    .setDescription('The Wast API collects waste information from the restaurants')
+    .setDescription('The Wast and Cooking APIs collect information from the restaurants')
     .setVersion('1.0.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
